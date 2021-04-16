@@ -1,0 +1,148 @@
+:root{
+    background-color: snow;
+}
+
+li{
+    padding-bottom: 3px;
+    color:black;
+    text-shadow: 1.5px 1px 3px none;
+    list-style-type:none;
+}
+
+p{
+    color: black;
+    text-shadow: .5px .5px none;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -.5rem;
+}
+
+input{
+    text-align: center;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+button{
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    border: 5px black;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 300px;
+    margin-top: 3px;
+}
+
+button:hover{
+    box-shadow: 4px 3px 6px black;
+}
+
+#startpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#timer{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:darkseagreen;
+    color:black;
+    font-size: x-large;
+    text-shadow: .5px .5px none;
+    text-align: center;
+}
+
+#quiz{
+    display: none;
+}
+
+#results{
+    display: none;
+}
+
+#gameover{
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#highScore{
+    height: 1.5rem;
+    border: groove 2px;
+}
+
+#high-scorePage{
+    display: none;
+    width: 50%;
+    border: solid;
+    border-color:black;
+    border-bottom-style: solid;
+    padding-bottom: .3rem;
+    background-color:darkseagreen;
+}
+
+#highscoreContainer{
+    height: 100%;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#initials{
+    margin: .5rem;
+    height: 1.75rem;
+}
+
+#highscore-initials{
+    display: inline-block;
+    padding-left: 9.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#highscore-header{
+    display:flex;
+    justify-content: space-around;
+    border-bottom-style: solid;
+    margin-bottom: .5rem;
+    background-color: darkseagreen;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#highscore-score{
+    float: right;
+    padding-right: 8.75rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#finalScore{
+    padding-bottom: .5rem;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#endGameBtns{
+    display: none;
+}
