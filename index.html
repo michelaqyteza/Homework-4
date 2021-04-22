@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz Challenge</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>  
+
+<body>
+    <div class="container">
+
+        <div id="home" class="flex-column flex-center">
+            <h1>Coding Quiz</h1>
+            <h3 id="timer">Time Left</h3>
+            <div class="questionarea">
+                <h2 id="questions">Click Button to Start the Quiz</h2>
+                <button id="btn1" class="answerbtn"></button>
+                <button id="btn2" class="answerbtn"></button>
+                <button id="btn3" class="answerbtn"></button>
+                <button id="btn4" class="answerbtn"></button>
+            </div>
+            <p id="messages"></p>
+            <button class="nextBtn">Next Question</button>
+            <a href="#" class="btn">Start</a>
+            <a href="#" id="saveBtn" class="btn">Save</a>
+            <p><input type = "text" class="" id= "initialbox"> Type Initial here</p>
+        </div>
+
+    </div>
+    <div class="high-scores">
+        <h2>High Scores</h2>
+        <p class="saved-score">1.</p>
+        <p class="saved-score">2.</p>
+        <p class="saved-score">3.</p>
+        <p class="saved-score">4.</p>
+        <p class="saved-score">5.</p>
+        <p class="saved-score">6.</p>
+        <p class="saved-score">7.</p>
+        <p class="saved-score">8.</p>
+        <p class="saved-score">9.</p>
+        <p class="saved-score">10.</p>
+      </div>
     <script src="script.js"></script>
 </body>
+
 </html>
