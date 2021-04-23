@@ -201,11 +201,11 @@ function showBtns(){
     }else{
         initials.classList.add("hidden")
     }
-    /*if(btnNext.classList.contains("hidden")){
+    if(btnNext.classList.contains("hidden")){
         btnNext.classList.remove("hidden")
     }else{
         btnNext.classList.add("hidden")
-    }*/
+    }
     
 }
 function hideBtns(){
@@ -224,11 +224,11 @@ function hideBtns(){
     }else{
         initials.classList.remove("hidden")
     }
-    /*if(btnNext.classList.contains("hidden")){
+    if(!btnNext.classList.contains("hidden")){
         btnNext.classList.add("hidden")
     }else{
         btnNext.classList.remove("hidden")
-    }*/
+    }
 }
 
 //loades highscores when page loads 
